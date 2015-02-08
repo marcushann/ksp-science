@@ -13,4 +13,10 @@ public partial class MainWindow: Gtk.Window
 		Application.Quit ();
 		a.RetVal = true;
 	}
+
+
+	protected void OnButton10Clicked (object sender, EventArgs e)
+	{
+		new kspscience.DeltaV ();
+	}
 }

@@ -12,5 +12,8 @@ namespace kspscience
 			win.Show ();
 			Application.Run ();
 		}
+
+		public static void showDeltaV(){
+		}
 	}
 }
