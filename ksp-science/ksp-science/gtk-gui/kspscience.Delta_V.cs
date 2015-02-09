@@ -16,6 +16,9 @@ namespace kspscience
 		private global::Gtk.Label label3;
 		private global::Gtk.SpinButton spinbutton3;
 		private global::Gtk.Button button13;
+		private global::Gtk.ScrolledWindow GtkScrolledWindow;
+		private global::Gtk.TextView textview1;
+		private global::Gtk.Entry entry1;
 
 		protected virtual void Build ()
 		{
@@ -142,6 +145,30 @@ namespace kspscience
 			w11.Position = 0;
 			w11.Expand = false;
 			w11.Fill = false;
+			// Container child vbox2.Gtk.Box+BoxChild
+			this.GtkScrolledWindow = new global::Gtk.ScrolledWindow ();
+			this.GtkScrolledWindow.Name = "GtkScrolledWindow";
+			this.GtkScrolledWindow.ShadowType = ((global::Gtk.ShadowType)(1));
+			// Container child GtkScrolledWindow.Gtk.Container+ContainerChild
+			this.textview1 = new global::Gtk.TextView ();
+			this.textview1.CanFocus = true;
+			this.textview1.Name = "textview1";
+			this.textview1.Editable = false;
+			this.GtkScrolledWindow.Add (this.textview1);
+			this.vbox2.Add (this.GtkScrolledWindow);
+			global::Gtk.Box.BoxChild w13 = ((global::Gtk.Box.BoxChild)(this.vbox2 [this.GtkScrolledWindow]));
+			w13.Position = 1;
+			// Container child vbox2.Gtk.Box+BoxChild
+			this.entry1 = new global::Gtk.Entry ();
+			this.entry1.CanFocus = true;
+			this.entry1.Name = "entry1";
+			this.entry1.IsEditable = false;
+			this.entry1.InvisibleChar = '•';
+			this.vbox2.Add (this.entry1);
+			global::Gtk.Box.BoxChild w14 = ((global::Gtk.Box.BoxChild)(this.vbox2 [this.entry1]));
+			w14.Position = 2;
+			w14.Expand = false;
+			w14.Fill = false;
 			this.Add (this.vbox2);
 			if ((this.Child != null)) {
 				this.Child.ShowAll ();

@@ -1,5 +1,6 @@
 using System;
 
+
 namespace kspscience
 {
 	public partial class Delta_V : Gtk.Window
@@ -22,6 +23,12 @@ namespace kspscience
 				//If any values are zero, abort
 				return;
 			}
+
+			//Calculate Delta-V
+			double deltav = Math.Log (starting / finishing) * (specificImpulse * 9.81);
+
+			//Write answer to the answer box
+			entry1.Text = deltav.ToString();
 		}
 	}
 }
