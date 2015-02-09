@@ -2,9 +2,9 @@ using System;
 
 namespace kspscience
 {
-	public partial class DeltaV : Gtk.Window
+	public partial class Delta_V : Gtk.Window
 	{
-		public DeltaV () : 
+		public Delta_V () : 
 				base(Gtk.WindowType.Toplevel)
 		{
 			this.Build ();
