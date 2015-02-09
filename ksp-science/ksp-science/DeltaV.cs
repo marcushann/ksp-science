@@ -29,6 +29,9 @@ namespace kspscience
 
 			//Write answer to the answer box
 			entry1.Text = deltav.ToString();
+
+			//display calculation in the text view
+			textview1.Buffer.Text = "ln(" + starting.ToString() + " / " + finishing.ToString() + ") * (" + specificImpulse.ToString() + " * 9.81) = " + deltav.ToString() + "";
 		}
 	}
 }
