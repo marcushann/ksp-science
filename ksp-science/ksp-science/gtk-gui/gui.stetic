@@ -94,4 +94,12 @@
       </widget>
     </child>
   </widget>
+  <widget class="Gtk.Window" id="kspscience.DeltaV" design-size="400 300">
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">DeltaV</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <child>
+      <placeholder />
+    </child>
+  </widget>
 </stetic-interface>

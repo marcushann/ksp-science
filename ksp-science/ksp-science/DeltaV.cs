@@ -2,16 +2,12 @@ using System;
 
 namespace kspscience
 {
-	public partial class DeltaV : Gtk.Dialog
+	public partial class DeltaV : Gtk.Window
 	{
-		public DeltaV ()
+		public DeltaV () : 
+				base(Gtk.WindowType.Toplevel)
 		{
 			this.Build ();
-		}
-
-		protected void OnButton9Clicked (object sender, EventArgs e)
-		{
-
 		}
 	}
 }

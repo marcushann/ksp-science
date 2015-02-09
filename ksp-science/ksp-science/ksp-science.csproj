@@ -69,8 +69,8 @@
     <Compile Include="gtk-gui\MainWindow.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="DeltaV.cs" />
     <Compile Include="gtk-gui\kspscience.DeltaV.cs" />
+    <Compile Include="DeltaV.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
