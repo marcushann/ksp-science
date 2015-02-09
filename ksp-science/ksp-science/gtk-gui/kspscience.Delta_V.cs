@@ -149,6 +149,7 @@ namespace kspscience
 			this.DefaultWidth = 693;
 			this.DefaultHeight = 428;
 			this.Show ();
+			this.button13.Clicked += new global::System.EventHandler (this.OnButton13Clicked);
 		}
 	}
 }

@@ -21,7 +21,7 @@
         <child>
           <widget class="Gtk.MenuBar" id="menubar1">
             <property name="MemberName" />
-            <node name="__gtksharp_142_Stetic_Editor_ActionMenuBar" type="Menubar" />
+            <node name="menubar1" type="Menubar" />
           </widget>
           <packing>
             <property name="Position">0</property>
@@ -468,6 +468,7 @@
                 <property name="Type">TextOnly</property>
                 <property name="Label" translatable="yes">Calculate</property>
                 <property name="UseUnderline">True</property>
+                <signal name="Clicked" handler="OnButton13Clicked" />
               </widget>
               <packing>
                 <property name="Position">3</property>
