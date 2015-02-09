@@ -16,6 +16,7 @@ public partial class MainWindow: Gtk.Window
 	
 	protected void OnButton30Clicked (object sender, EventArgs e)
 	{
-		new kspscience.DeltaV ();
+	    Window deltav = new kspscience.DeltaV ();
+		deltav.Show ();
 	}
 }
