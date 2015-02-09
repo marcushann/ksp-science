@@ -44,8 +44,9 @@
                     <property name="WidthRequest">120</property>
                     <property name="CanFocus">True</property>
                     <property name="Type">TextOnly</property>
-                    <property name="Label" translatable="yes">GtkButton</property>
+                    <property name="Label" translatable="yes">Delta-V</property>
                     <property name="UseUnderline">True</property>
+                    <signal name="Clicked" handler="OnButton30Clicked" />
                   </widget>
                   <packing>
                     <property name="Position">0</property>

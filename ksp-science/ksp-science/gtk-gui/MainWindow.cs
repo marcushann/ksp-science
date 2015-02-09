@@ -64,7 +64,7 @@ public partial class MainWindow
 		this.button30.CanFocus = true;
 		this.button30.Name = "button30";
 		this.button30.UseUnderline = true;
-		this.button30.Label = global::Mono.Unix.Catalog.GetString ("GtkButton");
+		this.button30.Label = global::Mono.Unix.Catalog.GetString ("Delta-V");
 		this.vbox3.Add (this.button30);
 		global::Gtk.Box.BoxChild w3 = ((global::Gtk.Box.BoxChild)(this.vbox3 [this.button30]));
 		w3.Position = 0;
@@ -271,5 +271,6 @@ public partial class MainWindow
 		this.DefaultHeight = 217;
 		this.Show ();
 		this.DeleteEvent += new global::Gtk.DeleteEventHandler (this.OnDeleteEvent);
+		this.button30.Clicked += new global::System.EventHandler (this.OnButton30Clicked);
 	}
 }
